@@ -1,0 +1,45 @@
+.currency-form-container {
+  border: 1px solid #efefef;
+  background-color: #fff;
+  padding: 40px 60px;
+  border-radius: 16px;
+}
+
+.container.currency-container {
+  transform: translate(0%, 20%);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 16px;
+}
+
+.currency-info-card {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #efefef;
+  padding: 15px;
+  border-radius: 7px;
+  
+}
+
+.currency-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.convert-btn {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 100px;
+  background-color: sienna;
+  border: none;
+}
+
+.swap-btn {
+  font-size: 32px;
+  fill: #a0522d;
+  cursor: pointer;
+}
